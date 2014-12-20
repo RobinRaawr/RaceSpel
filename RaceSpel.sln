@@ -7,6 +7,8 @@ Project("{476F60BD-D33E-5CA9-2379-D9F2C82AF23F}") = "RaceSpel", "Assembly-CSharp
 EndProject
 Project("{476F60BD-D33E-5CA9-2379-D9F2C82AF23F}") = "RaceSpel", "Assembly-CSharp-Editor.csproj", "{DD6819A1-185D-D3D2-B7DF-3DBDEC367133}"
 EndProject
+Project("{476F60BD-D33E-5CA9-2379-D9F2C82AF23F}") = "RaceSpel", "Assembly-UnityScript.unityproj", "{C0AF1A1F-80A1-DE93-1B34-8A20F4DF3E37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{DD6819A1-185D-D3D2-B7DF-3DBDEC367133}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD6819A1-185D-D3D2-B7DF-3DBDEC367133}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD6819A1-185D-D3D2-B7DF-3DBDEC367133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AF1A1F-80A1-DE93-1B34-8A20F4DF3E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AF1A1F-80A1-DE93-1B34-8A20F4DF3E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AF1A1F-80A1-DE93-1B34-8A20F4DF3E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AF1A1F-80A1-DE93-1B34-8A20F4DF3E37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-			GlobalSection(MonoDevelopProperties) = preSolution
+														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

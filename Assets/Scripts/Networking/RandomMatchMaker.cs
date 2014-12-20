@@ -25,11 +25,20 @@ public class RandomMatchMaker : MonoBehaviour {
 
     void OnJoinedRoom()
     {
-        GameObject spawnedCar = PhotonNetwork.Instantiate("Car", Vector3.zero, Quaternion.identity, 0);
+        GameObject car = PhotonNetwork.Instantiate("Car", Vector3.zero, Quaternion.identity, 0);
         // Don’t mix it up with Unity’s Instantiate or Network.Instantiate. This makes sure the view gets instantiated on the other clients, too.
 
-        HoverMotor controller = spawnedCar.GetComponent<HoverMotor>();
+        HoverMotor controller = car.GetComponent<HoverMotor>();
         controller.enabled = true;
+
+        NetworkCharacter character = car.GetComponent<NetworkCharacter>();
+        character.enabled = false;
+
+        Camera cam = car.GetComponentInChildren<Camera>();
+        cam.enabled = true;
+        // Misschien is dit niet handig, maar goed!
+        cam.GetComponent<AudioListener>().enabled = false;
+
 
     }
 }
