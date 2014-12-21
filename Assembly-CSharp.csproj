@@ -89,11 +89,11 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Nico/Documents/RaceGameCollaborativeProject/Assets/Plugins/Photon3Unity3D.dll</HintPath>
- </Reference>
  <Reference Include="MX Unity">
  <HintPath>C:/Users/Nico/Documents/RaceGameCollaborativeProject/Assets/Plugins/MX Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/Nico/Documents/RaceGameCollaborativeProject/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
