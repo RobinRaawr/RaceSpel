@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\SmoothFollow.js" />
      <Compile Include="Assets\Scripts\SmoothLookAt.js" />
      <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\Imports\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
