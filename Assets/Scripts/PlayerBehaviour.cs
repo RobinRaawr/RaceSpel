@@ -2,7 +2,7 @@
 using System.Collections;
 
 [RequireComponent(typeof(Rigidbody))]
-public class PlayerBehaviour : RaceGameBehaviour
+public class PlayerBehaviour : MonoBehaviour
 {
 	Vector3 spawnPosition;
 	Quaternion spawnRotation;
