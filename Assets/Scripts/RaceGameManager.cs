@@ -16,16 +16,15 @@ public class RaceGameManager : MonoBehaviour
 
 	public void RestartRace()
 	{
-		int c = 0;
+		PlayerBehaviour[] playerList = MonoBehaviour.FindObjectsOfType<PlayerBehaviour>();
 
-		foreach (PlayerBehaviour e in MonoBehaviour.FindObjectsOfType<PlayerBehaviour>())
+		foreach (PlayerBehaviour e in playerList)
 		{
 			e.GoToSpawnPosition();
-			c++;
 		}
 
 		Debug.Log(
 			"Restarting race...\n" +
-			"Number of players found: " + c);
+			"Number of players found: " + playerList.Length);
 	}
 }
