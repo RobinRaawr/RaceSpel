@@ -29,7 +29,7 @@ public class RandomMatchMaker : MonoBehaviour {
     {
         GameObject car = PhotonNetwork.Instantiate("Car", spawn.transform.position, spawn.transform.rotation, 0);
         // Don’t mix it up with Unity’s Instantiate or Network.Instantiate. This makes sure the view gets instantiated on the other clients, too.
-
+        
         HoverMotor controller = car.GetComponent<HoverMotor>();
         controller.enabled = true;
 
