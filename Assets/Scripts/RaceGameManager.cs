@@ -9,14 +9,23 @@ public class RaceGameManager : MonoBehaviour
 	void OnJoinedRoom()
 	{
 		if (PhotonNetwork.isMasterClient)
-			restartButton.enabled = true;
+			restartButton.gameObject.SetActive(true);
 		else
-			restartButton.enabled = false;
+			restartButton.gameObject.SetActive(false);
 	}
 
 	public void RestartRace()
 	{
-		foreach (PlayerBehaviour e in GameObject.FindObjectsOfType<PlayerBehaviour>())
+		int c = 0;
+
+		foreach (PlayerBehaviour e in MonoBehaviour.FindObjectsOfType<PlayerBehaviour>())
+		{
 			e.GoToSpawnPosition();
+			c++;
+		}
+
+		Debug.Log(
+			"Restarting race...\n" +
+			"Number of players found: " + c);
 	}
 }

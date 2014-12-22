@@ -9,11 +9,6 @@ public class RandomMatchMaker : MonoBehaviour {
     {
         PhotonNetwork.ConnectUsingSettings("0.1");	
 	}
-	
-	void Update () 
-    {
-        Debug.Log(PhotonNetwork.connectionStateDetailed.ToString());	
-	}
 
     void OnJoinedLobby() // It’s called when PUN got you into a lobby.
     {
@@ -27,6 +22,8 @@ public class RandomMatchMaker : MonoBehaviour {
 
     void OnJoinedRoom()
     {
+		Debug.Log(PhotonNetwork.connectionStateDetailed.ToString());
+
         GameObject car = PhotonNetwork.Instantiate("Car", spawn.transform.position, spawn.transform.rotation, 0);
         // Don’t mix it up with Unity’s Instantiate or Network.Instantiate. This makes sure the view gets instantiated on the other clients, too.
         
@@ -40,7 +37,5 @@ public class RandomMatchMaker : MonoBehaviour {
         cam.enabled = true;
         // Misschien is dit niet handig, maar goed!
         cam.GetComponent<AudioListener>().enabled = false;
-
-
     }
 }
