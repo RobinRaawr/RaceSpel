@@ -11,3 +11,18 @@ D:\Projecten\Unity\RaceSpel\Temp\bin\Debug\ICSharpCode.NRefactory.dll
 D:\Projecten\Unity\RaceSpel\Temp\bin\Debug\Photon3Unity3D.xml
 D:\Projecten\Unity\RaceSpel\obj\Debug\Assembly-CSharp-firstpass.dll
 D:\Projecten\Unity\RaceSpel\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\MX Unity.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\Photon3Unity3D.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\Photon3Unity3D.xml
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Nico\Documents\RaceGameCollaborativeProject\obj\Debug\Assembly-CSharp-firstpass.pdb
