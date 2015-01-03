@@ -26,3 +26,4 @@ C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\Photon3Unity
 C:\Users\Nico\Documents\RaceGameCollaborativeProject\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
 C:\Users\Nico\Documents\RaceGameCollaborativeProject\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Nico\Documents\RaceGameCollaborativeProject\obj\Debug\Assembly-CSharp-firstpass.pdb
+D:\Projecten\Unity\RaceSpel\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache

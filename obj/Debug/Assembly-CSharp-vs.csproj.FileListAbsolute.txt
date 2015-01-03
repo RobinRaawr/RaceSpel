@@ -9,7 +9,6 @@ D:\Projecten\Unity\RaceSpel\Temp\bin\Debug\Mono.Cecil.dll
 D:\Projecten\Unity\RaceSpel\Temp\bin\Debug\nunit.framework.dll
 D:\Projecten\Unity\RaceSpel\Temp\bin\Debug\Unity.DataContract.dll
 D:\Projecten\Unity\RaceSpel\Temp\bin\Debug\ICSharpCode.NRefactory.dll
-D:\Projecten\Unity\RaceSpel\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
 D:\Projecten\Unity\RaceSpel\Temp\bin\Debug\Photon3Unity3D.xml
 D:\Projecten\Unity\RaceSpel\obj\Debug\Assembly-CSharp.dll
 D:\Projecten\Unity\RaceSpel\obj\Debug\Assembly-CSharp.pdb
@@ -29,3 +28,4 @@ C:\Users\Nico\Documents\RaceGameCollaborativeProject\Temp\bin\Debug\Photon3Unity
 C:\Users\Nico\Documents\RaceGameCollaborativeProject\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
 C:\Users\Nico\Documents\RaceGameCollaborativeProject\obj\Debug\Assembly-CSharp.dll
 C:\Users\Nico\Documents\RaceGameCollaborativeProject\obj\Debug\Assembly-CSharp.pdb
+D:\Projecten\Unity\RaceSpel\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

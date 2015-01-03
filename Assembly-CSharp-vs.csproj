@@ -79,7 +79,10 @@
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\HoverMotor.cs" />
+     <Compile Include="Assets\Scripts\CheckWhatMotor.cs" />
+     <Compile Include="Assets\Scripts\Motors\FlyingMotor.cs" />
+     <Compile Include="Assets\Scripts\Motors\FlyingMotor2.cs" />
+     <Compile Include="Assets\Scripts\Motors\HoverMotor.cs" />
      <Compile Include="Assets\Scripts\Networking\NetworkCharacter.cs" />
      <Compile Include="Assets\Scripts\Networking\RandomMatchMaker.cs" />
      <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
