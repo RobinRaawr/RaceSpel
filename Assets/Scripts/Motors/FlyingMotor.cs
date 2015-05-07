@@ -17,9 +17,9 @@ public class FlyingMotor : MonoBehaviour
         pitch = Input.GetAxis("Pitch") * (Time.fixedDeltaTime * RotationSpeed);
         yaw = Input.GetAxis("Yaw") * (Time.fixedDeltaTime * RotationSpeed);
         AddRot.eulerAngles = new Vector3(-pitch, yaw, -roll);
-        rigidbody.rotation *= AddRot;
+        GetComponent<Rigidbody>().rotation *= AddRot;
         Vector3 AddPos = Vector3.forward;
-        AddPos = rigidbody.rotation * AddPos;
-        rigidbody.velocity = AddPos * (Time.fixedDeltaTime * AmbientSpeed);
+        AddPos = GetComponent<Rigidbody>().rotation * AddPos;
+        GetComponent<Rigidbody>().velocity = AddPos * (Time.fixedDeltaTime * AmbientSpeed);
     }
 }

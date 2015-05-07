@@ -21,8 +21,8 @@ public class CheckWhatMotor : MonoBehaviour
             hoverMotor.enabled = false;
             flyingMotor.enabled = true;
 
-            rigidbody.useGravity = false;
-            renderer.material.color = Color.red;
+            GetComponent<Rigidbody>().useGravity = false;
+            GetComponent<Renderer>().material.color = Color.red;
         }
 
         if (!switched) // Hover mode
@@ -30,9 +30,9 @@ public class CheckWhatMotor : MonoBehaviour
             hoverMotor.enabled = true;
             flyingMotor.enabled = false;
 
-            rigidbody.useGravity = true;
+            GetComponent<Rigidbody>().useGravity = true;
             //rigidbody.freezeRotation = false;
-            renderer.material.color = Color.blue;
+            GetComponent<Renderer>().material.color = Color.blue;
         }
 
     }

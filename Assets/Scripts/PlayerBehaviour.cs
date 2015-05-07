@@ -9,7 +9,7 @@ public class PlayerBehaviour : MonoBehaviour
 
 	void Start()
 	{
-		Rigidbody rigidbodyRef = rigidbody;
+		Rigidbody rigidbodyRef = GetComponent<Rigidbody>();
 
 		spawnPosition = transform.position;
 		spawnRotation = transform.rotation;
@@ -17,12 +17,12 @@ public class PlayerBehaviour : MonoBehaviour
 
 	public void GoToSpawnPosition()
 	{
-		Rigidbody rigidbodyRef = rigidbody;
+		Rigidbody rigidbodyRef = GetComponent<Rigidbody>();
 
 		rigidbodyRef.position = spawnPosition;
 		rigidbodyRef.rotation = spawnRotation;
 
 		rigidbodyRef.velocity = Vector3.zero;
-		rigidbody.angularVelocity = Vector3.zero;
+		GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 	}
 }
